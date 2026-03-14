@@ -12,3 +12,28 @@
 - 🧩 **复杂场景鲁棒性**：针对面部遮挡（如手部、眼镜、头发）和大角度侧脸进行了特殊训练，极大减少伪影。
 - 🎬 **视频时序稳定**：加入时序一致性（Temporal Consistency）模块，告别视频换脸中的画面闪烁抖动现象。
 - 📦 **开箱即用**：提供直观的命令行界面（CLI）和易于二次开发的 Python API。
+## 🖼️ 效果展示
+
+*(建议在此处添加您的对比图或 GIF 动图)*
+
+| 源图片 (Source) | 目标图片 (Target) | 换脸结果 (Result) |
+| :---: | :---: | :---: |
+| <img src="docs/assets/source.jpg" width="200"> | <img src="docs/assets/target.jpg" width="200"> | <img src="docs/assets/result.jpg" width="200"> |
+
+> 📺 **视频 Demo**:[点击此处观看高清演示视频](您的B站/YouTube链接)
+
+---
+
+## 🛠️ 环境依赖与安装
+
+### 系统要求
+- 操作系统：Windows 10/11, Ubuntu 20.04+
+- 显卡：NVIDIA GPU (显存 >= 8GB)
+- 驱动：CUDA 11.7+ & cuDNN 8.5+
+
+### 安装步骤
+
+1. **克隆代码库**
+   ```bash
+   git clone https://github.com/wwkkp/DeepFaceSwap.git
+   cd [DeepFaceSwap]
